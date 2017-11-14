@@ -24,8 +24,8 @@ export default class VideoCardGrid extends React.Component {
              onClick={this.playSong.bind(this)}/>
         <div className='video-grid-details'>
           <div className='video-grid-title'>
-            <span  className='video-grid-title-title'>{this.props.video.title}</span>
-            <span className='video-grid-title-add'>
+            <span  className='video-grid-title-title button'>{this.props.video.title}</span>
+            <span className='video-grid-title-add button'>
               <FontAwesome name='download' onClick={this.downloadSong.bind(this)}/>
               <FontAwesome name='plus' onClick={this.addToNowPlaying.bind(this)} />
             </span>
