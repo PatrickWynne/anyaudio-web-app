@@ -13,6 +13,10 @@
 .video-card-list-thumb {
   width: 80px;
   height: 80px;
+  cursor: pointer;
+}
+.button{
+  cursor:pointer;
 }
 
 .video-card-list-details {
